@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e523f59-6138-43c5-8c7a-a2853b090fea" name="Changes" comment="project created -- cukesRunner class added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+    <list default="true" id="9e523f59-6138-43c5-8c7a-a2853b090fea" name="Changes" comment="project continue -- login test added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/VyTrackLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/VyTrackLoginStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/VyTrackLogin.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,15 +37,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Zulpikar/IdeaProjects/EUFastTrackCucumber/src/test/java/utility"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zulpikar/IdeaProjects/EUFastTrackCucumber/src/test/java/utility&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Zulpikar\IdeaProjects\EUFastTrackCucumber\src\test\java\utility" />
@@ -81,7 +84,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659985199929</updated>
-      <workItem from="1659985201386" duration="2587000" />
+      <workItem from="1659985201386" duration="2931000" />
+      <workItem from="1660150882910" duration="2543000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1659985771329</created>
@@ -97,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659985835168</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="project continue -- login test added">
+      <created>1659988071319</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659988071319</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +128,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project created" />
     <MESSAGE value="project created -- cukesRunner class added" />
-    <option name="LAST_COMMIT_MESSAGE" value="project created -- cukesRunner class added" />
+    <MESSAGE value="project continue -- login test added" />
+    <option name="LAST_COMMIT_MESSAGE" value="project continue -- login test added" />
   </component>
 </project>
