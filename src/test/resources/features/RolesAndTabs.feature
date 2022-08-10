@@ -1,6 +1,6 @@
 Feature: Roles and Tabs
 
-  @wip
+#  @wip
   Scenario Outline: Different modules and different titles
     Given user at login page
     When user provide "<role>" information

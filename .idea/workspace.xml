@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e523f59-6138-43c5-8c7a-a2853b090fea" name="Changes" comment="Day 5 -- parametrization">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/NavigationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/RolesAndTabsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/NavigationStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/RolesAndTabsStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Navigation.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/RolesAndTabs.feature" afterDir="false" />
+    <list default="true" id="9e523f59-6138-43c5-8c7a-a2853b090fea" name="Changes" comment="Day 5 -- data table">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/NamePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/NamesStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Names.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/VyTrackLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/VyTrackLogin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/RolesAndTabs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/RolesAndTabs.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,15 +35,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zulpikar/IdeaProjects/EUFastTrackCucumber/src/test/java/utility&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Zulpikar/IdeaProjects/EUFastTrackCucumber/src/test/java/utility"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Zulpikar\IdeaProjects\EUFastTrackCucumber\src\test\java\utility" />
@@ -86,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659985199929</updated>
       <workItem from="1659985201386" duration="2931000" />
-      <workItem from="1660150882910" duration="6908000" />
+      <workItem from="1660150882910" duration="8620000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1659985771329</created>
@@ -116,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660153541483</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Day 5 -- data table">
+      <created>1660158727055</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660158727055</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +141,7 @@
     <MESSAGE value="project created -- cukesRunner class added" />
     <MESSAGE value="project continue -- login test added" />
     <MESSAGE value="Day 5 -- parametrization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 5 -- parametrization" />
+    <MESSAGE value="Day 5 -- data table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 5 -- data table" />
   </component>
 </project>
