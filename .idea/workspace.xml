@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e523f59-6138-43c5-8c7a-a2853b090fea" name="Changes" comment="project continue -- login test added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/VyTrackLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/VyTrackLoginStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/VyTrackLogin.feature" afterDir="false" />
+    <list default="true" id="9e523f59-6138-43c5-8c7a-a2853b090fea" name="Changes" comment="Day 5 -- parametrization">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/NavigationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/RolesAndTabsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/NavigationStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/RolesAndTabsStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Navigation.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/RolesAndTabs.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/VyTrackLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/VyTrackLogin.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659985199929</updated>
       <workItem from="1659985201386" duration="2931000" />
-      <workItem from="1660150882910" duration="2543000" />
+      <workItem from="1660150882910" duration="6908000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1659985771329</created>
@@ -108,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659988071319</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Day 5 -- parametrization">
+      <created>1660153541483</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660153541483</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +137,7 @@
     <MESSAGE value="project created" />
     <MESSAGE value="project created -- cukesRunner class added" />
     <MESSAGE value="project continue -- login test added" />
-    <option name="LAST_COMMIT_MESSAGE" value="project continue -- login test added" />
+    <MESSAGE value="Day 5 -- parametrization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 5 -- parametrization" />
   </component>
 </project>
