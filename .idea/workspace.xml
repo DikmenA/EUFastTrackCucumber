@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e523f59-6138-43c5-8c7a-a2853b090fea" name="Changes" comment="Day 5 -- data table">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/NamePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/NamesStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Names.feature" afterDir="false" />
+    <list default="true" id="9e523f59-6138-43c5-8c7a-a2853b090fea" name="Changes" comment="Day 5 -- last push">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ExcelFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/FailedTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utility/sample data.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Names.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Names.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/RolesAndTabs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/RolesAndTabs.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,10 +40,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Zulpikar/IdeaProjects/EUFastTrackCucumber/src/test/java/utility"
+    "last_opened_file_path": "C:/Users/Zulpikar/IdeaProjects/EUFastTrackCucumber/src/test/java/utility",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -51,7 +56,7 @@
       <recent name="runners" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ExcelFile.test2">
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EUFastTrackCucumber" />
       <extension name="coverage">
@@ -67,9 +72,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExcelFile.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EUFastTrackCucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pages" />
+      <option name="MAIN_CLASS_NAME" value="pages.ExcelFile" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcelFile.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EUFastTrackCucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pages" />
+      <option name="MAIN_CLASS_NAME" value="pages.ExcelFile" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcelFile.writeExcel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EUFastTrackCucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pages" />
+      <option name="MAIN_CLASS_NAME" value="pages.ExcelFile" />
+      <option name="METHOD_NAME" value="writeExcel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FailedTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EUFastTrackCucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.FailedTestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExcelFile.test2" />
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.ExcelFile.writeExcel" />
+        <item itemvalue="JUnit.FailedTestRunner" />
+        <item itemvalue="JUnit.ExcelFile.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -82,7 +154,8 @@
       <option name="presentableId" value="Default" />
       <updated>1659985199929</updated>
       <workItem from="1659985201386" duration="2931000" />
-      <workItem from="1660150882910" duration="8620000" />
+      <workItem from="1660150882910" duration="9278000" />
+      <workItem from="1660323607998" duration="3710000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1659985771329</created>
@@ -119,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660158727055</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Day 5 -- last push">
+      <created>1660160651821</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660160651821</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +222,7 @@
     <MESSAGE value="project continue -- login test added" />
     <MESSAGE value="Day 5 -- parametrization" />
     <MESSAGE value="Day 5 -- data table" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 5 -- data table" />
+    <MESSAGE value="Day 5 -- last push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 5 -- last push" />
   </component>
 </project>

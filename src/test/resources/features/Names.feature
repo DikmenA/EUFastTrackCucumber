@@ -1,6 +1,6 @@
 Feature: user name and last name should be correct
 
-  @wip
+#  @wip
   Scenario Outline: Compare name of user
     Given user at login page
     When user login using below credentials
